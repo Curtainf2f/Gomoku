@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="wzq" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/wzq" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-mwindows" />
+					<Add library="E:/Program Files (x86)/CodeBlocks/MinGW/lib/libgraphics.a" />
+					<Add library="E:/Program Files (x86)/CodeBlocks/MinGW/lib/libgdi32.a" />
+					<Add library="E:/Program Files (x86)/CodeBlocks/MinGW/lib/libimm32.a" />
+					<Add library="E:/Program Files (x86)/CodeBlocks/MinGW/lib/libmsimg32.a" />
+					<Add library="E:/Program Files (x86)/CodeBlocks/MinGW/lib/libole32.a" />
+					<Add library="E:/Program Files (x86)/CodeBlocks/MinGW/lib/liboleaut32.a" />
+					<Add library="E:/Program Files (x86)/CodeBlocks/MinGW/lib/libwinmm.a" />
+					<Add library="E:/Program Files (x86)/CodeBlocks/MinGW/lib/libuuid.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/wzq" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AI.cpp" />
+		<Unit filename="AI.h" />
+		<Unit filename="art.cpp" />
+		<Unit filename="art.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mystruct.h" />
+		<Unit filename="rule.cpp" />
+		<Unit filename="rule.h" />
+		<Unit filename="user.cpp" />
+		<Unit filename="user.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

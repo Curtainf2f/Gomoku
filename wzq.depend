@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1546424282 source:e:\u盘\cms\选做(五子棋)\main.cpp
+	"graphics.h"
+	"art.h"
+	"mystruct.h"
+	"rule.h"
+	"user.h"
+	<stack>
+
+1521566139 e:\u盘\cms\选做(五子棋)\art.h
+
+1546424145 e:\u盘\cms\选做(五子棋)\mystruct.h
+
+1521640132 e:\u盘\cms\选做(五子棋)\rule.h
+
+1521639557 e:\u盘\cms\选做(五子棋)\user.h
+	"mystruct.h"
+
+1521652525 source:e:\u盘\cms\选做(五子棋)\rule.cpp
+	"graphics.h"
+	"art.h"
+	"mystruct.h"
+	"AI.h"
+	"user.h"
+	<stack>
+
+1546424124 e:\u盘\cms\选做(五子棋)\ai.h
+
+1521652327 source:e:\u盘\cms\选做(五子棋)\user.cpp
+	"graphics.h"
+	"user.h"
+	"mystruct.h"
+	"art.h"
+	<cstdio>
+	<string>
+	<stack>
+
+1546424113 source:e:\u盘\cms\选做(五子棋)\ai.cpp
+	"graphics.h"
+	"art.h"
+	"mystruct.h"
+	"AI.h"
+	<stack>
+	<queue>
+	<cstring>
+	"rule.h"
+	<algorithm>
+	<iostream>
+	<cstdio>
+	<map>
+	<set>
+	<string>
+	<ctime>
+
+1546424353 source:e:\u盘\cms\选做(五子棋)\art.cpp
+	"graphics.h"
+	"mystruct.h"
+	"rule.h"
+	<stack>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	"AI.h"
+	"art.h"
+
